@@ -55,6 +55,7 @@ more on this. You can get your telegram bot token from the `Bot Father` telegram
 
 ### Environment variables
 
+```
 MONGODB_URL=your_mongodb_url
 PORT=your_port_number
 
@@ -70,6 +71,7 @@ INFURA_API_KEY=your_infura_api_key
 PRIV_KEY=your_wallets_private_key
 ETHERSCAN_API_KEY=your_etherscan_api_key
 POLYGONSCAN_API_KEY=your_polygonscan_api_key
+```
 
 ### Deploy Contracts
 

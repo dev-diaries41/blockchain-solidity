@@ -1,0 +1,6 @@
+.env
+node_modules/
+error.log
+event.log
+combined.log
+cache

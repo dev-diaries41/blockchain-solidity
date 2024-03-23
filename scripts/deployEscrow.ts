@@ -2,8 +2,8 @@ import { ethers } from "hardhat";
 
 
 async function main() {
-  const recipient = 'your_recipient_contract_address';   //seller
-  const escrowAgent = 'your_escrowagent_contract_address';
+  const recipient = '0x9AC2A0Fa7C48484FB8C7B646e9cf0e4499F974f1'; //seller
+  const escrowAgent = '0x9AC2A0Fa7C48484FB8C7B646e9cf0e4499F974f1'; 
 
   const lockedAmount = ethers.parseEther("0.001");
 

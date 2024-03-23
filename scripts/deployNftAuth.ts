@@ -1,9 +1,9 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const name = 'your_nft_name'  // e.g MyToken
-  const symbol = 'your_token_symbol';   // e.g DD
-  const baseUri = 'your_base_uri'   // e.g https://ipfs.io/ipfs/QmZTsKpsB1FSnKut3bZ7BY35jCszvhqchqtR81RtSLyWRA/
+  const name = 'NFTAuth'
+  const symbol = 'n2fa';
+  const baseUri = 'https://ipfs.io/ipfs/QmZSsVpsA1FSoKut8bZ7BY35jCszvhqcnqtR81RtSLyWPH/'
 
   const authme = await ethers.deployContract("NFTAuth", [name, symbol, baseUri], {
   });

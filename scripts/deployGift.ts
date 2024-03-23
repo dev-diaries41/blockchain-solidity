@@ -3,7 +3,7 @@ import { ethers } from "hardhat";
 async function main() {
   const currentTimestampInSeconds = Math.round(Date.now() / 1000);
   const unlockTime = currentTimestampInSeconds + 300; // add 5mins
-  const recipient = 'your_recipient_contract_address';
+  const recipient = '0x9AC2A0Fa7C48484FB8C7B646e9cf0e4499F974f1';
 
   const lockedAmount = ethers.parseEther("0.001");
 
